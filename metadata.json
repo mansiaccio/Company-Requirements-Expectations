@@ -1,0 +1,5 @@
+{
+  "name": "Interview Intel: Company Intelligence Extractor",
+  "description": "A powerful interview preparation tool that uses Gemini AI to analyze company websites, LinkedIn profiles, and JDs to provide actionable intelligence and rejection risk analysis.",
+  "requestFramePermissions": []
+}

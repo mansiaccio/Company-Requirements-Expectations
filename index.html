@@ -9,8 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- html2pdf library for direct file downloads -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
+        @media print {
+            .no-print { display: none !important; }
+            .print-only { display: block !important; }
+            main { display: block !important; }
+            .lg\:col-span-8 { width: 100% !important; grid-column: span 12 / span 12 !important; }
+            body { background: white !important; }
+            .shadow-md, .shadow-sm { shadow: none !important; border: 1px solid #e2e8f0 !important; }
+        }
     </style>
 <script type="importmap">
 {
